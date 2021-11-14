@@ -1,0 +1,41 @@
+o <a> interliga varios conteudos na WEB
+existem vários atributos para ele
+
+
+um deles é o <a href é o hiperlink para onde a ancora está apontando, pode ser uma página no meu site ou um site externo, ele também pode apontar para e-mails
+e até telefones.
+exemplo: <a href="Linkedin.com/in/vilaboim">LinkedIn</a>
+
+o segundo é o <a target que serve para indicar como este link vai ser aberto
+exemplo: <a target="_blank">link</a> - neste exmplo ele diz para o nosso link abrir o nosso endereço em uma nova aba.
+
+agora vamos utilizar a tag <img> que é um daqueles elementos sem tag de fechamento
+o elemento IMG só tem dois atributos próprios o SRC e o ALT
+o <img src é obrigatório e ele guardao caminho da imagem, pode ser uma imagem dentro do seu próprio site ou de outro lugar
+o elemento <img alt mesmo não sendo obrigatório ele altamente recomendado para melhorar a acessibilidade, ele mostra a descrição da foto quando ela não é carregada e leitores
+de tela usam esta discrição para mostrar para os usuários o que aquela imagem significa.
+
+vamos falar sobre listas
+listas servem para agrupar uma coleção de itens  - uma lista de ingredientes ou de contatos
+<ul> o elemento ul ele representa uma lista em que a ordem dos intes não é importante
+<ol> o elemento ol a ordem dos itens é importante por tanto eles são representados com números, letras ou algarismos romanos e o <li> é um item desta lista
+
+em 1996 foi criada a linguagem de estilo que chamos de CSS
+criamos regas de estilos
+od id de classe representam qualquer elemento
+
+exemplo
+<header id="header" class="header"></header> - no HTML declaramos o id com id e classe com class
+<header class="header"></header>
+
+no CSS uma classe é precedida por um ponto
+exemplo: .header {
+    padding: 10px;
+}
+
+o id é precedido por um #
+exemplo: #header {
+    padding: 15px;
+}
+
+um id só pode ser usado uma vez na página
